@@ -1,11 +1,23 @@
-
-import './App.css';
+import React from 'react';
+import Home from './components/Home';
+import About from './components/About';
+import Contact from './components/Contact';
+import { Route,  Routes } from 'react-router-dom';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <>
-    <h1> Am I working?</h1>
-    </>
+    <div className="App">
+      <NavBar />
+      <Routes>
+        <Route exact path= "/">
+        <Route index element={<Home />}/>
+        </Route>
+       
+      <Route path= "/About" element={<About />}/>
+      <Route path= "/Contact" element={<Contact />}/>
+      </Routes>
+    </div>
   );
 }
 
