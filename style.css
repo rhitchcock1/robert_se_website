@@ -2,11 +2,13 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: Optima, sans-serif;
 }
 
 a {
     text-decoration: none;
     color: #618B4A;
+    text-transform: uppercase;
 }
 a:hover,
 a:focus {
@@ -72,17 +74,17 @@ h3 {
 }
 .nav-item a:hover,
 .nav-item a:focus {
-    border: 2px solid #40531b;
+    border: 2px solid #eee;
     text-decoration: none;
 }
 
 .content-subhead {
     text-transform: uppercase;
     color: #618B4A;
-    border-bottom: 1px solid #eee;
-    padding: 0.4em 0;
-    font-size: 80%;
-    font-weight: 500;
+    border-bottom: 2px solid #eee;
+    padding: .5em 0;
+    font-size: 90%;
+    font-weight: 600;
     letter-spacing: 0.1em;
 }
 
@@ -104,7 +106,7 @@ h3 {
     margin-left: 1em;
 }
 .post-description {
-    font-family: Georgia, "Cambria", serif;
+    font-family: Optima, sans-serif;
     color: #444;
     line-height: 1.8em;
 }
