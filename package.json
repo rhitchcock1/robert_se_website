@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "browser-router": "^0.2.0",
-    "navbar-react": "^1.0.4",
-    "react-router-dom": "^6.10.0"
-  }
-}
